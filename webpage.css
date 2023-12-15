@@ -1,0 +1,341 @@
+body{
+    background-image: url(photos/restaurant-cafe-coffee-shop-interior-with-people-abstract-defocused-blur-background_293060-3973.avif);
+    background-size:100%;
+    /* background-position: bottom; */
+}
+header{
+    background-image: url(photos/tabletop-looking-out-empty-restaurant.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 150px;
+    padding: 20px 10px 10px;
+    font-size: larger;
+    transition: transform 0.3s;
+    cursor: pointer;
+    max-width: 100vw;
+    
+}
+header:hover{
+    color: brown;
+    transform: scale(1.20);
+}
+.topsign{
+    float: right;
+    top: 20%;
+}
+.content{
+    display: flex;
+    width: 950px;
+    height: 1080px;
+
+}
+.nav{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+
+
+}
+.nav a{
+    font-size: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 35px;
+}
+.nav a:hover{
+    background-color:black;
+    color: yellow;
+    cursor: pointer;
+    border-radius: 30%;
+    text-decoration: underline;
+    padding: 5px 5px;
+}
+.menu{
+    border: 2px solid black;
+    background-color: white;
+    width: 350px;
+    display: block;
+    left: 40%;
+    top: 350px;
+    position: absolute;
+    border-radius: 180px 0px 180px;
+    background-color: rgb(150, 21, 21);
+    color: whitesmoke;
+    transition: transform 0.3s;
+}
+.menu:hover{
+    color: darkseagreen;
+    transform: scale(1.20);
+}
+.cheif{
+    width: 350px;
+    position: absolute;
+    left: 40%;
+    top: 900px;
+    border-radius: 15px;
+}
+.logo{
+width: 260px;
+position: absolute;
+left: 20px;
+top: 20px;
+border-radius: 200px;
+}
+.welcome:hover {
+color: red;
+cursor: pointer;
+}
+.welcome{
+    text-align: center;
+    color: rgb(212, 155, 10);
+    text-decoration: none;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.biryani{
+    width: 350px;
+    position: absolute;
+    bottom: 0%;
+    right: 980px;
+    top: 37%;
+    border: 2px solid white;
+    transition: transform 0.3s;
+    max-width: 100%;
+}
+.biryani:hover {
+    transform: scale(1.20);
+  }
+.fastfood{
+    width: 350px;
+    position: absolute;
+    bottom: 0%;
+    right: 980px;
+    top: 750px;
+    border: 2px solid white;
+    transition: transform 0.3s;
+}
+.fastfood:hover {
+    transform: scale(1.20);
+  }
+.bir{
+    color: rgb(71, 62, 3);
+    position: absolute;
+    top: 500px;
+    width: 30%;
+    left: 5px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.burger  {
+    color: rgb(71, 15, 3);
+    position: absolute;
+    top: 1050px;
+    width: 30%;
+    left: 5px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 20px;
+}
+.signup{
+    border: 2px solid black;
+    background-color: white;
+    width: 300px;
+    display: block;
+    top: 30%;
+    left: 73%;
+    position: absolute;
+    padding: 20px;
+    border-radius: 45px;
+    color:  hsl(234, 29%, 20%);
+    font-weight: bolder;
+    text-wrap: wrap;
+    background-color: coral;
+}
+
+.stay{
+    font-weight: bolder;
+    padding-left: 20px;
+    font-size: xxx-large;
+}
+.button{
+    text-align: center;
+    padding: 16px 53px;
+    margin-left: 22px;
+    margin-top: 11px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border-radius: 8px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: tomato;
+}
+.form{
+    text-align: center;
+    padding: 13px 70px;
+    margin-top: 1px;
+    border-radius: 7px;
+}
+.para{
+    width: 60%;
+    margin-left: 60px;
+}
+li{
+list-style-image: url(assets/icon-list.svg);
+}
+.details{
+    border: 2px solid black;
+    background-color: white;
+    width: 300px;
+    display: block;
+    top: 700px;
+    left: 73%;
+    position: absolute;
+    padding: 20px;
+    border-radius: 45px;
+    color:  hsl(234, 29%, 20%);
+    font-weight: bolder;
+    text-wrap: wrap;
+    background-color: lightblue;
+}
+.bottom{
+    margin: 2%;
+    padding: 25px;
+    transition: transform 0.3s ;
+    
+}
+/* .bottom:hover{
+    transform: scale(1.20);
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+} */
+.popeyes:hover{
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.nuggets:hover{
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.grill:hover{
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.shawarma:hover{
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+  @media only screen and (max-width:858px) {
+ /* For mobile phones: */
+    .logo{
+        width: 10%;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        border-radius: 200px;
+        }
+        .menu{
+            border: 2px solid black;
+            background-color: white;
+            width: 20%;
+            display: block;
+            left: 40%;
+            top: 350px;
+            position: absolute;
+            border-radius: 180px 0px 180px;
+            background-color: rgb(150, 21, 21);
+            color: whitesmoke;
+            transition: transform 0.3s;
+        }
+        .signup{
+            border: 2px solid black;
+            background-color: white;
+            width: 20%;
+            display: block;
+            top: 40%;
+            left: 73%;
+            position: absolute;
+            padding: 20px;
+            border-radius: 45px;
+            color:  hsl(234, 29%, 20%);
+            font-weight: bolder;
+            text-wrap: wrap;
+            background-color: coral;
+        }
+        .details{
+            border: 2px solid black;
+            background-color: white;
+            width: 20%;
+            display: block;
+            top: 1050px;
+            left: 73%;
+            position: absolute;
+            padding: 20px;
+            border-radius: 45px;
+            color:  hsl(234, 29%, 20%);
+            font-weight: bolder;
+            text-wrap: wrap;
+            background-color: lightblue;
+        }
+        .form {
+            text-align: center;
+            padding: 14px 2px;
+            margin-top: 8px;
+            margin-left: -21px;
+            border-radius: 7px;
+        }
+        .button {
+            text-align: center;
+            padding: 14px 46px;
+            margin-left: -12px;
+            margin-top: 11px;
+            background-color: hsl(234, 29%, 20%);
+            color: white;
+            border-radius: 8px;
+        }
+    
+}
