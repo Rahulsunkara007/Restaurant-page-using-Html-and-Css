@@ -78,7 +78,7 @@ header:hover{
 .logo{
 width: 260px;
 position: absolute;
-left: 20px;
+left: 110px;
 top: 20px;
 border-radius: 200px;
 }
@@ -145,7 +145,7 @@ cursor: pointer;
     background-color: white;
     width: 300px;
     display: block;
-    top: 30%;
+    top: 35%;
     left: 73%;
     position: absolute;
     padding: 20px;
@@ -192,7 +192,7 @@ list-style-image: url(assets/icon-list.svg);
     background-color: white;
     width: 300px;
     display: block;
-    top: 700px;
+    top: 711px;
     left: 73%;
     position: absolute;
     padding: 20px;
